@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C31F7FC-4C74-459D-A50C-C283154EDE29}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_00_Presentations</RootNamespace>
+    <AssemblyName>00 Presentations</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="01 JavaScript Intro.pptx" />
+    <None Include="02 HTML Basics.pptx" />
+    <None Include="03 CSS Basics.pptx" />
+    <None Include="04 JavaScript syntax - Presentation.pptx" />
+    <None Include="04 JavaScript syntax - Tasks.pptx" />
+    <None Include="04 JavaScript-Loops-Arrays-Strings-Demos.zip" />
+    <None Include="05 Javascript functions and objects.pptx" />
+    <None Include="05 JavaScript Tasks - Guidelines.pptx" />
+    <None Include="05 JavaScript Tasks.pptx" />
+    <None Include="06 Javascript loops.pptx" />
+    <None Include="06 JavaScript Tasks.pptx" />
+    <None Include="07 jQuery - Basics.pptx" />
+    <None Include="08 jQuery - Advanced.pptx" />
+    <None Include="10 JavaScript Libraries, Frameworks and Tools %28Links%29.pptx" />
+    <None Include="11 JavaScript  Design Patterns.pptx" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
