@@ -1,0 +1,19 @@
+﻿.green_p {
+    background-color: rgba(255, 0, 255, 0.5);
+    border: 5px solid blue;
+    border-width: 1px 10px 20px 40px;
+}
+
+p {
+    text-align: center;
+    color: red;
+}
+
+    p.green_p {
+        color: green;
+        background-image: url('../images/cat_02.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 200px;
+    }
