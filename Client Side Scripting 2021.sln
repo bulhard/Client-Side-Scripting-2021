@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 Presentations", "00 Pres
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 HTML Basics", "02 HTML Basics\02 HTML Basics.csproj", "{B19A574E-AA63-459F-91A6-D244E7AB9895}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 CSS Basics", "03 CSS Basics\03 CSS Basics.csproj", "{8284BD0B-B29F-4A70-B85E-B4AA44434415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 CSS Basics", "03 CSS Basics\03 CSS Basics.csproj", "{8284BD0B-B29F-4A70-B85E-B4AA44434415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Javascript Syntax", "04 Javascript Syntax\04 Javascript Syntax.csproj", "{D1E2242F-83D8-4AF2-B450-AAE55B4B43EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8284BD0B-B29F-4A70-B85E-B4AA44434415}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8284BD0B-B29F-4A70-B85E-B4AA44434415}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8284BD0B-B29F-4A70-B85E-B4AA44434415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E2242F-83D8-4AF2-B450-AAE55B4B43EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E2242F-83D8-4AF2-B450-AAE55B4B43EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E2242F-83D8-4AF2-B450-AAE55B4B43EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E2242F-83D8-4AF2-B450-AAE55B4B43EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
