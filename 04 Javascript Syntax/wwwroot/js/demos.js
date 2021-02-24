@@ -55,3 +55,31 @@ function demo3() {
     g = x > c ? x : c;
     document.getElementById("result3").innerHTML += "<br>Comparing " + x + " and " + c + " we found that bigger is " + g;
 }
+
+function valueOf(str) {
+    var value = 0;
+
+    const array = str.split('');
+
+    for (var i = 0; i <= array.length; i++) {
+        if (array[i] == 'Q') {
+            value += 1;
+        }
+        if (array[i] == 'W') {
+            value += 2;
+        }
+        if (array[i] == 'E') {
+            value += 3;
+        }
+        if (array[i] == 'R') {
+            value += 4;
+        }
+    }
+    return value;
+}
+
+function testValueOf(str) {
+    let result = valueOf(str);
+
+    console.log(result);
+}
