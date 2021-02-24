@@ -50,5 +50,8 @@
     <None Include="11 JavaScript  Design Patterns.pptx" />
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="start_here.html" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
