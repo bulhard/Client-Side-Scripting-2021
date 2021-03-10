@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>images</title>
+    <script src="js/images.js"></script>
+    <style>
+        table {
+        }
+
+        #bigImage {
+            width: 200px
+        }
+
+        .thumb {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td colspan="6">
+                <img id="bigImage" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img id="thumb1" class="thumb" onclick="ReloadGallery(1)" />
+            </td>
+            <td>
+                <img id="thumb2" class="thumb" onclick="ReloadGallery(2)" />
+            </td>
+            <td>
+                <img id="thumb3" class="thumb" onclick="ReloadGallery(3)" />
+            </td>
+            <td>
+                <img id="thumb4" class="thumb" onclick="ReloadGallery(4)" />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

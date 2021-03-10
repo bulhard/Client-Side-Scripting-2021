@@ -1,5 +1,13 @@
 ﻿"use strict"
 
+function ChangeColor(elementId) {
+    document.getElementById(elementId).style.backgroundColor = "red";
+}
+
+function ChangeColor1(element) {
+    element.style.backgroundColor = "blue";
+}
+
 function demo() {
     // debugger;
 
