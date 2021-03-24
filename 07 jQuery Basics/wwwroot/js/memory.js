@@ -57,11 +57,18 @@ function closeAllImages() {
     firstImageValue = 0;
     $("img").attr("src", "images/back.png");
     $("img").attr("selected", false);
+    $("img").removeClass("flip");
 }
 
 $(document).ready(function () {
     $("img").click(function () {
+        if ($(this).attr("selected")) {
+            // image is selected
+            return;
+        }
+
         if (openedImages >= 2) {
+            // there are 2 selected images, so we close all
             closeAllImages();
             openedImages = 0;
             return;
@@ -70,6 +77,7 @@ $(document).ready(function () {
         openedImages++;
 
         $(this).hide();
+        $(this).addClass("flip");
 
         let x = $(this).data("x");
         let y = $(this).data("y");
@@ -83,9 +91,16 @@ $(document).ready(function () {
             if (firstImageValue == playground[x][y]) {
                 $(this).attr("selected", true);
                 // Remove images
-                $("img[selected='selected']").remove();
-                openedImages = 0;
-                firstImageValue = 0;
+
+                setTimeout(() => {
+                    $("img[selected='selected']").fadeOut(1500, function () {
+                        $("img[selected='selected']").remove();
+                    });
+
+                    // $("img[selected='selected']").remove();
+                    openedImages = 0;
+                    firstImageValue = 0;
+                }, 500);
             }
         }
 
