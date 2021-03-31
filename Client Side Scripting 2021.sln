@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Javascript Functions", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 Javascript Loops", "06 Javascript Loops\06 Javascript Loops.csproj", "{076CDE60-024B-4196-8E89-FD024DB56866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 jQuery Basics", "07 jQuery Basics\07 jQuery Basics.csproj", "{77C4384C-464B-4E7D-8A9E-1F0E751558CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07 jQuery Basics", "07 jQuery Basics\07 jQuery Basics.csproj", "{77C4384C-464B-4E7D-8A9E-1F0E751558CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 jQuery Advanced", "08 jQuery Advanced\08 jQuery Advanced.csproj", "{F00FCBD0-4D7E-4DF4-85AB-E407B77DB9F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{77C4384C-464B-4E7D-8A9E-1F0E751558CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77C4384C-464B-4E7D-8A9E-1F0E751558CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77C4384C-464B-4E7D-8A9E-1F0E751558CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00FCBD0-4D7E-4DF4-85AB-E407B77DB9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00FCBD0-4D7E-4DF4-85AB-E407B77DB9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00FCBD0-4D7E-4DF4-85AB-E407B77DB9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00FCBD0-4D7E-4DF4-85AB-E407B77DB9F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

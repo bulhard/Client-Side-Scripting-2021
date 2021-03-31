@@ -3,9 +3,19 @@ const y = 3;
 
 var openedImages = 0;
 var firstImageValue = 0;
+var score = 0;
+var moves = 0;
+var playground;
 
-const playground = generatePlayground(x, y);
-populatePlayground(x, y);
+function StartNewGame() {
+    openedImages = 0;
+    firstImageValue = 0;
+    score = 0;
+    moves = 0;
+    // ToDo: Create HTML Table and images
+    playground = generatePlayground(x, y);
+    populatePlayground(x, y);
+}
 
 function generatePlayground(a, b) {
     let arr = [];
@@ -55,6 +65,7 @@ function checkCardsNumber(number) {
 
 function closeAllImages() {
     firstImageValue = 0;
+    openedImages = 0;
     $("img").attr("src", "images/back.png");
     $("img").attr("selected", false);
     $("img").removeClass("flip");
@@ -70,7 +81,6 @@ $(document).ready(function () {
         if (openedImages >= 2) {
             // there are 2 selected images, so we close all
             closeAllImages();
-            openedImages = 0;
             return;
         }
 
@@ -88,6 +98,9 @@ $(document).ready(function () {
             $(this).attr("selected", true);
         }
         else {
+            moves++;
+            $("#moves").text(moves);
+
             if (firstImageValue == playground[x][y]) {
                 $(this).attr("selected", true);
                 // Remove images
@@ -97,9 +110,11 @@ $(document).ready(function () {
                         $("img[selected='selected']").remove();
                     });
 
-                    // $("img[selected='selected']").remove();
                     openedImages = 0;
                     firstImageValue = 0;
+
+                    score++;
+                    $("#score").text(score);
                 }, 500);
             }
         }
