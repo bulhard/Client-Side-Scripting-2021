@@ -47,6 +47,7 @@
     <None Include="07 jQuery - Basics.pptx" />
     <None Include="08 jQuery - Advanced.pptx" />
     <None Include="10 JavaScript Libraries, Frameworks and Tools %28Links%29.pptx" />
+    <None Include="12 Bootstrap.pptx" />
     <None Include="11 JavaScript  Design Patterns.pptx" />
     <None Include="App.config" />
   </ItemGroup>
